@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proxima pagina</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <div class="center">
+        <ul id="menu">
+            <li>
+                <a class="mb-50 bd1 p1" href="index.html">Início</a>
+            </li>
+            <li>
+                <a class="mb-50 bd1 p1" href="contato.html">Proxima página</a>
+            </li>
+        </ul>
+    </div>
+    
+    <div class="container center">
+        <div>
+            <h1><span class="mb-50 p1" style="background-color: aquamarine;">Entre em contato comigo</span></h1>
+
+
+            <div>
+            <div>
+                <form>
+                    <button class="imagem5">Nome: </button>
+                    <br>
+                    <input class="imagem5" type="text" id="nome" onkeyup="validaNome()">
+                    <div id="txtNome">
+
+                    </div>
+                    <br>
+                    <button class="imagem5">E-mail: </button>
+                    <br>
+                    <input class="imagem4 imagem5" placeholder="Digite seu e-mail" type="email" id="email" onkeyup="validaEmail()">
+                    <div id="txtEmail">
+
+                    </div>
+                    <br>
+                    <button class="imagem5">Mensagem: </button>
+                    <br>
+                    <textarea name="mensagem" id="mensagem" cols="30" rows="5" onkeyup="validaMensagem()" class="bd1 imagem5" ></textarea>
+                    <div id="txtMensagem">
+
+                    </div>
+                    <br>
+                    <button class="imagem4" onclick="enviar()">Enviar</button>
+                </form>
+            </div>
+        </div>
+    
+    <div>
+        <h1 class="center"><span class="mb-50 p1" style="background-color: aquamarine;">Endereço da minha empresa</span></h1>
+    
+        <div>
+        <p class="p-30 mb-50 p1" >Rua do verde 17 - Taquara - RJ</p>
+    </div>
+</div>
+</div>
+</div>
+        <div class="center">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3674.309898595779!2d-43.3847749!3d-22.9388114!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9bd919008d19d1%3A0x7a9a5d5cbb1da8ac!2sR.%20do%20Verde%2C%2017%20-%20Taquara%2C%20Rio%20de%20Janeiro%20-%20RJ%2C%2022713-575!5e0!3m2!1spt-BR!2sbr!4v1668170661096!5m2!1spt-BR!2sbr"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade" onmousemove="mapaZoom()" onmouseout="mapaNormal()" id="mapa"></iframe>
+    </div>
+    <footer>
+        <div class="center">
+
+            <p class="mb-50 p1">Direitos reservados Jose Luiz &copy;</p>
+        </div>
+
+    </footer>
+    <script src="assets/js/script.js"></script>
+    
+</body>
+</html>
